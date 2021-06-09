@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+  }
+  .heading{
+    padding: 40px;
+    text-align: center;
+    background-image: url("img/heading1.jpg");
+    background-color: #cccccc;
+    color: rgb(27, 26, 25);
+    font-size: 30px;
+    font-family: 'serif';
+    font-style: italic;
+    width: 100%;
+    
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption{
+  text-decoration: sandybrown;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+  color: rgb(16, 14, 27);
+  
+}
+.column {
+    float: left;
+    width: 25%;
+    
+    padding: 5px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  
+}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+#myImg:hover {opacity: 0.7;}
+
+.bold{
+  font-size: 40px;
+  font-family: monospace;
+  color: rgb(48, 138, 223);
+}
+
+
+.childcaption{
+  text-align:center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+  color: rgb(16, 14, 27);
+}
+
+.picture{
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.picture img {
+ 
+ 
+  padding: 10px 40px;
+}
+
+.picture .btn {
+  position: absolute;
+  top: 250px;
+  left: 700px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+  color: rgb(24, 23, 23);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+	border: 1px solid #3498db;
+	background-color: transparent;
+	height: 50px;
+	width: 200px;
+	font-size: 1em;
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+	
+}
+
+.picture .btn:hover {
+  background-color: black;
+}
+.content{
+  text-align:center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+  color: rgb(16, 14, 27);
+}
